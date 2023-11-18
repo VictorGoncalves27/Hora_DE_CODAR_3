@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(./pastaImagens/fundo-gradiente-de-verao-para-videochamadas_23-2148971885.jpg) ;
+    background-size: cover ;
+    display: flex;
+    
+}
+
+main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 550px;
+    height: 930px;
+    background: rgb(255, 254, 254);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    display: inline;
+    margin-left: 600px;
+    margin-right: 400px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px black;
+    
+}
+article{
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nome{
+    
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    white-space: 20px;
+    box-shadow: 500px;
+}
+
+
+button{
+    height: auto;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+
+button:hover{
+    
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 3, 234);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
